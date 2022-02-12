@@ -1,0 +1,23 @@
+English=Float(input("Enter English marks:"))
+Maths=float(input("Enter Maths marks:"))
+Chemistry=float(input("Enter Chemistry marks:"))
+Physics=float(input("Enter Physics marks:"))
+Computer=float(input("Enter Computer marks:"))
+
+Total=English+Maths+Chemistry+Physics+Computer
+Mean=Total/5
+print("Total")
+print("Mean")
+ 
+IF (Mean>70):
+   print("Grade A")
+elif(Mean>60):
+    print("Grade B")
+elif(mean>50):
+    print("Grade C")
+elif(Mean>40):
+    print("Grade D")
+elif(Mean<40):
+    print("Grade E")
+else:
+    print("Fail")
